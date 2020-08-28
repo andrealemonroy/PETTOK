@@ -20,6 +20,6 @@ export const FlexboxWrapper = styled('div')`
     display: ${(props) => props.mobileNone ? 'block' : 'flex'} 
   }
   @media ${device.laptopL} {
-    grid-template-columns: ${(props) => (props.grid ? '12% 88%' : '0')};
+    grid-template-columns: ${(props) => (props.grid ? '50% 50%%' : '0')};
   }
 `
